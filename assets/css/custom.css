@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+h1 {font-family: 'Playfair Display', serif; 
+    color:white
+}
+.portada h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 1.4em;
+}
+p{
+    color: white;
+}
+
+body{
+    background-color: #1a1a1a;
+}
+.portada img{
+    width: 100%; 
+    max-width: 375px;
+    height: 87px;
+    margin-bottom: 30px;
+}
+.cuerpo{
+  margin-top: 100px;
+}
+.cuerpo p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1,2em;
+    line-height: 2em;
+    margin-bottom: 30px;
+    color: white;
+
+}
+
+.pills{
+  border-bottom: 2px solid #1993a8;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Estilos para la parte de scrollama  */
+
+      #scrolly {
+        position: relative;
+        /* background-color: #f3f3f3; */
+        padding: 1rem;
+      }
+
+      .article-steps{
+        position: relative;
+        padding: 0;
+        max-width: 648px;
+        margin: 0 auto;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        
+      }
+
+      .sticky-thing {
+        position: -webkit-sticky;
+        position: sticky;
+        left: 0;
+        width: 100%;
+        margin: 0;
+        /* background-color: #8a8a8a; */
+        background-image: url("../../Img/vis-01.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        z-index: 0;
+        top: 12.5vh;
+        height: 80vh;
+
+        /* Center everything inside */
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        transition: all 0.5s ease; 
+      }
+
+      .sticky-thing p {
+        font-size: 8rem;
+        font-weight: 900;
+        color: #fff;
+      }
+
+      .step {
+        margin: 0 auto 1000px auto;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+
+      .step:last-child {
+        margin-bottom: 0;
+      }
+
+      .step.is-active p {
+        background-color: goldenrod;
+        color: #3b3b3b;
+      }
+
+      .step p {
+        /* text-align: center; */
+        padding: 1rem;
+        font-size: 1.2rem;
+        background-color: rgba(20,20,20,0.85);
+
+      }
+
+      img{
+        width: 100%;
+        max-width: 648px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+
+      }  
+      .btn-outline-primary {
+        background-color: white;
+      }
